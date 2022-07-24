@@ -13,8 +13,9 @@ public class LaunchChrome {
 		 WebDriver driver=new ChromeDriver();
 		 driver.get("https://demoqa.com");
 		 Thread.sleep(3000);
-		 driver.quit();
-		 System.out.println("Execution complete");
+		// driver.quit();
+		 driver.manage().window().maximize();
+		 System.out.println("Execution complete!.");
 
 	}
 
