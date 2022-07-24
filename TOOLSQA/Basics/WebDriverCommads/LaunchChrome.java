@@ -16,6 +16,7 @@ public class LaunchChrome {
 		// driver.quit();
 		 driver.manage().window().maximize();
 		 System.out.println("Execution complete!.");
+		 System.out.println("EGO....");
 
 	}
 
